@@ -33,7 +33,7 @@ public class Main {
         allUsers.ifPresentOrElse(users -> users.forEach(System.out::println),
                 () -> System.out.println("No users found."));
 
-      allUsers.ifPresent(users -> System.out.println("\nTotally there is " + users.size() + " users."));
+      allUsers.ifPresent(users -> System.out.println("\nTotally there are " + users.size() + " users."));
 
     }
 }
